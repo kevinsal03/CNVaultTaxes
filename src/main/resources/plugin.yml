@@ -1,0 +1,18 @@
+name: CNVaultTaxes
+main: me.kevsal.minecraft.cnvaulttaxes.VaultTaxes
+version: ${project.version}
+author: Kevinsal03
+description: Wraps Vault to add taxes, inspired by VaultEvents by Rsl1122
+api-version: 1.14 # Paper API
+depend: [Vault]
+softdepend: [Essentials]
+loadbefore: [dtlTradersPlus, dtlTraders, ShopGUI, CrazyAuctions]
+commands:
+  taxes:
+    description: Get your current tax rate.
+    usage: /<command>
+    aliases:
+      - tax-rate
+      - tax
+      - get-tax-rate
+      - gtr
